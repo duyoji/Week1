@@ -2,11 +2,11 @@
 
 ## 1. `day`という変数を作り、文字列"Monday"を代入してください
 
-### A.
+### A. var day = "Monday";
 
 ## 2. `alert`または`console.log`で`day`の値を表示してください
 
-### B.
+### B. alert(day); console.log(day);
 
 
 ## 3. `getDay`という関数を作り、文字列"Friday"をリターンしてください
