@@ -53,7 +53,7 @@
 
 	var anchor = document.getElementById("myAnchor");
 
-### A.
+### A. document.getElementById("myAnchor").style.color="red";
 
 
 ## 8. 配列をループするのに利用できるのは以下のうちどれ
@@ -70,9 +70,15 @@
 
 	document.___________
 
-### A. document.getElementById('')
+### A. document.getElementById("ID名").tagName;
 
 
 ## 10. `box`と`id`が付与された要素をクリックした後、背景色をオレンジからグリーンに変更してください。
 
 ### A.
+	var el = document.getElementById("box");
+	el.addEventListener("click", 
+											function(e){
+												this.style.background = "red";
+											}, 
+											false);
