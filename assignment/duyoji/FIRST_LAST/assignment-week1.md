@@ -26,6 +26,14 @@
 
 ### A.
 
+	var day = "";
+	var setDay = function() { 
+  	day = "Friday"; 
+	}; 
+
+	setDay(); 
+	console.log(day);
+
 
 ## 5. `people`に"Bob"、"Sally"、"John"というアイテムを左記の順番どおりに配列として定義してください。
 
