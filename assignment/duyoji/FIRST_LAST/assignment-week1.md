@@ -12,7 +12,7 @@
 ## 3. `getDay`という関数を作り、文字列"Friday"をリターンしてください
 
 	var getDay = function(){
-    return "Friday";
+    	return "Friday";
 	};
 
 ## 4. 以下のコードを改変し`console.log(day);`が`undefined`にならないようにしてください
@@ -28,7 +28,7 @@
 
 	var day = "";
 	var setDay = function() { 
-    day = "Friday"; 
+    	day = "Friday"; 
 	}; 
 
 	setDay(); 
@@ -79,7 +79,7 @@
 	var el = document.getElementById("box");
 	el.style.background="orange";
 	el.addEventListener("click", 
-											function(e){
-												this.style.background = "red";
-											}, 
-											false);
+						function(e){
+							this.style.background = "red";
+						}, 
+						false);
