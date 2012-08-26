@@ -77,6 +77,7 @@
 
 ### A.
 	var el = document.getElementById("box");
+	el.style.background="orange";
 	el.addEventListener("click", 
 											function(e){
 												this.style.background = "red";
