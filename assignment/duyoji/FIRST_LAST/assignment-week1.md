@@ -10,6 +10,11 @@
 
 
 ## 3. `getDay`という関数を作り、文字列"Friday"をリターンしてください
+
+	var getDay = function(){
+  	return "Friday";
+	};
+
 ## 4. 以下のコードを改変し`console.log(day);`が`undefined`にならないようにしてください
 
 	var setDay = function() { 
