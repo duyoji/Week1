@@ -80,6 +80,6 @@
 	el.style.background="orange";
 	el.addEventListener("click", 
 						function(e){
-							this.style.background = "red";
+							this.style.background = "green";
 						}, 
 						false);
